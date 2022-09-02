@@ -1,5 +1,5 @@
 {
-  "name": "react-city-weather-report-widget",
+  "name": "@alyrik/react-city-weather-report-widget",
   "version": "0.0.1",
   "description": "Simple React widget displaying current weather for the provided location.",
   "main": "./dist/index.js",
@@ -53,5 +53,18 @@
   "dependencies": {
     "@tanstack/react-query": "4.2.3",
     "axios": "0.27.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alyrik/react-city-weather-report-widget.git"
+  },
+  "keywords": [
+    "react",
+    "widget",
+    "weather"
+  ],
+  "bugs": {
+    "url": "https://github.com/alyrik/react-city-weather-report-widget/issues"
+  },
+  "homepage": "https://github.com/alyrik/react-city-weather-report-widget#readme"
 }
