@@ -49,12 +49,12 @@ function App() {
 
 ## Props
 
-| Property          | Type                             | Required | Default      | Description                                                                                                                                                                                                  |
-| ----------------- | -------------------------------- | -------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `apiKey`          | `String`                         | true     | ---          | OpenWeather API key                                                                                                                                                                                          |
-| `defaultCity`     | `String`                         | true     | ---          | Name of the city to be shown by default                                                                                                                                                                      |
-| `refetchInterval` | `Number`                         | false    | `30000`      | Interval in `ms` for refetching current weather data.<br/> ⚠️ Don't make it less than 1000ms if you use free subscription otherwise it will abuse free limits and your API token will be temporarily blocked |
-| `orientation`     | `'vertical' &#124; 'horizontal'` | false    | `'vertical'` | Widget orientation                                                                                                                                                                                           |
+| Property          | Type                            | Required | Default      | Description                                                                                                                                                                                                  |
+| ----------------- | ------------------------------- | -------- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `apiKey`          | `String`                        | true     | ---          | OpenWeather API key                                                                                                                                                                                          |
+| `defaultCity`     | `String`                        | true     | ---          | Name of the city to be shown by default                                                                                                                                                                      |
+| `refetchInterval` | `Number`                        | false    | `30000`      | Interval in `ms` for refetching current weather data.<br/> ⚠️ Don't make it less than 1000ms if you use free subscription otherwise it will abuse free limits and your API token will be temporarily blocked |
+| `orientation`     | `'vertical'`<br/>`'horizontal'` | false    | `'vertical'` | Widget orientation                                                                                                                                                                                           |
 
 ## Development
 
