@@ -20,7 +20,7 @@ export const StyledRoot = styled.section<{
   max-width: ${({ orientation }) =>
     orientation === 'vertical' ? '300px' : '500px'};
   min-height: ${({ orientation }) =>
-    orientation === 'vertical' ? '320px' : '200px'};
+    orientation === 'vertical' ? '330px' : '200px'};
   background: #fff;
   position: relative;
   border-radius: 6px;

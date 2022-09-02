@@ -1,3 +1,4 @@
+.git
 # dependencies
 /node_modules
 
@@ -19,6 +20,7 @@ yarn-error.log*
 .env
 .todo
 
+src
 .storybook
 .editorconfig
 .env.sample
