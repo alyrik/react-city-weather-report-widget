@@ -22,3 +22,10 @@ yarn-error.log*
 # Other
 .env
 .todo
+
+.storybook
+.editorconfig
+.env.sample
+.eslintrc.json
+.prettierrc.js
+package-lock.json
