@@ -1,0 +1,57 @@
+{
+  "name": "react-city-weather-report-widget",
+  "version": "0.0.1",
+  "description": "Simple React widget displaying current weather for the provided location.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf node_modules/react && rimraf node_modules/react-dom && tsup --env.NODE_ENV production --dts",
+    "storybook": "npm-install-peers && start-storybook -p 6006",
+    "build-storybook": "npm-install-peers && build-storybook"
+  },
+  "author": "Kiryl Anokhin <alyrik@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@storybook/addon-actions": "^6.5.10",
+    "@storybook/addon-essentials": "^6.5.10",
+    "@storybook/addon-interactions": "^6.5.10",
+    "@storybook/addon-links": "^6.5.10",
+    "@storybook/builder-webpack4": "^6.5.10",
+    "@storybook/manager-webpack4": "^6.5.10",
+    "@storybook/react": "^6.5.10",
+    "@storybook/testing-library": "^0.0.13",
+    "@types/react": "^18.0.18",
+    "@types/react-dom": "^18.0.6",
+    "@types/styled-components": "^5.1.26",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
+    "babel-loader": "^8.2.5",
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-storybook": "^0.6.4",
+    "npm-install-peers": "^1.2.2",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "styled-components": "^5.3.5",
+    "tsup": "^6.2.3",
+    "typescript": "^4.8.2"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^4.2.3",
+    "axios": "^0.27.2"
+  }
+}
