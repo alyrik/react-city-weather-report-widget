@@ -4,6 +4,8 @@ A simple React component showing current weather for given location.
 
 It uses [OpenWeather API](https://openweathermap.org/api) to load weather data.
 
+Check out live [DEMO](https://react-city-weather-report-widget.vercel.app/?path=/story/reactcityweatherreportwidget--vertical).
+
 <img src="./example.png" />
 
 <!-- TOC -->
