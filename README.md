@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/@alyrik%2Freact-city-weather-report-widget.svg)](https://www.npmjs.com/package/@alyrik/react-city-weather-report-widget)
+
 # React City Weather Report Widget
 
 A simple React component showing current weather for given location.
