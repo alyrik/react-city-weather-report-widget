@@ -93,6 +93,7 @@ export const Widget: FC<IProps> = ({
         <StyledForm onSubmit={handleFormSubmit}>
           <StyledInput
             type="text"
+            placeholder="Enter city name"
             value={inputValue}
             onChange={handleInputChange}
           />

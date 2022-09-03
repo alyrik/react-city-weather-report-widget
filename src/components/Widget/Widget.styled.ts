@@ -87,6 +87,10 @@ export const StyledInput = styled.input`
   color: #fff;
   transition: background-color 200ms ease;
 
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
   &:hover {
     background: rgba(255, 255, 255, 0.3);
   }
