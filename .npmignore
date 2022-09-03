@@ -21,6 +21,7 @@ yarn-error.log*
 .todo
 
 src
+storybook-static
 .storybook
 .editorconfig
 .env.sample

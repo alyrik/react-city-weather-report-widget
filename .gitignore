@@ -22,3 +22,4 @@ yarn-error.log*
 # Other
 .env
 .todo
+storybook-static
