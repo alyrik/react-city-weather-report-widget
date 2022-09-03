@@ -17,7 +17,8 @@
     "test": "jest",
     "build": "npm run test && rimraf node_modules/react && rimraf node_modules/react-dom && tsup --env.NODE_ENV production --dts",
     "storybook": "npm run install-peers && start-storybook -p 6006",
-    "build-storybook": "npm run install-peers && build-storybook"
+    "build-storybook": "npm run install-peers && build-storybook",
+    "start-storybook-static": "npm run build-storybook && serve storybook-static"
   },
   "author": "Kiryl Anokhin <alyrik@gmail.com>",
   "license": "ISC",
@@ -51,6 +52,7 @@
     "npm-install-peers": "^1.2.2",
     "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
+    "serve": "^14.0.1",
     "styled-components": "^5.3.5",
     "ts-jest": "^28.0.8",
     "tsup": "^6.2.3",
