@@ -30,7 +30,7 @@ const Template: Story<IProps> = (args) => (
         {...args}
         defaultCity="Wrocław"
         refetchInterval={1000 * 30}
-        apiKey={process.env.OPEN_WEATHER_MAP_API_KEY as string}
+        apiKey={process.env.STORYBOOK_OPEN_WEATHER_MAP_API_KEY as string}
       />
     </div>
   </QueryClientProvider>
