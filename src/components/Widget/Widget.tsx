@@ -44,6 +44,7 @@ export const Widget: FC<IProps> = ({
     isSuccess: isCitySuccess,
     isLoading: isCityLoading,
   } = useSearchCity(currentCity, { apiKey });
+
   const isWeatherQueryEnabled = Boolean(cityData?.lat && cityData?.lon);
 
   const {
